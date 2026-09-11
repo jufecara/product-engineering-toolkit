@@ -1,0 +1,32 @@
+name: Validate toolkit
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate manifest and Markdown frontmatter
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m json.tool plugins/product-engineering-toolkit/.codex-plugin/plugin.json >/dev/null
+
+          for file in plugins/product-engineering-toolkit/skills/*/SKILL.md; do
+            awk 'NR==1{a=($0=="---")} NR==2{b=($0 ~ /^name:/)} NR==3{c=($0 ~ /^description:/)} NR==4{d=($0=="---")} END{if(!(a&&b&&c&&d)) exit 1}' "$file"
+          done
+
+          for file in plugins/product-engineering-toolkit/commands/*.md; do
+            awk 'NR==1{a=($0=="---")} NR==2{b=($0 ~ /^description:/)} NR==3{c=($0 ~ /^argument-hint:/)} NR==4{d=($0=="---")} END{if(!(a&&b&&c&&d)) exit 1}' "$file"
+          done
+
+          if grep -RInE '\[TODO:|/Users/|/home/|\.env=' plugins/product-engineering-toolkit; then
+            echo "Found unfinished placeholders or local paths"
+            exit 1
+          fi
+
+          echo "Toolkit structure is valid."
