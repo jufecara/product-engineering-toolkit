@@ -10,7 +10,7 @@ See `USAGE_GUIDE.md` for the recommended sequence, example requests, handoffs, a
 
 The optional `commands/` directory provides explicit command entrypoints for users who prefer them. Commands are shortcuts into skills; they do not replace natural-language requests or automatic skill selection.
 
-Localized command aliases are available for Spanish, Portuguese, French, and Italian. They invoke the same canonical English skills, so findings and handoffs remain traceable while explanations can follow the user’s language.
+Localized command aliases are available for Spanish, Portuguese, French, and Italian. The language registry lets the system detect the request language, select the matching alias or template, and invoke the same canonical English skill so findings and handoffs remain traceable.
 
 ## Included skills
 

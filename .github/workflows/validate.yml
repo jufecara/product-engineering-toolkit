@@ -15,6 +15,24 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m json.tool plugins/product-engineering-toolkit/.codex-plugin/plugin.json >/dev/null
+          python3 -m json.tool plugins/product-engineering-toolkit/locales/registry.json >/dev/null
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("plugins/product-engineering-toolkit")
+          registry = json.loads((root / "locales/registry.json").read_text())
+          canonical = {p.parent.name for p in (root / "skills").glob("*/SKILL.md")}
+          for skill, aliases in registry["commands"].items():
+              if skill not in canonical:
+                  raise SystemExit(f"Unknown canonical skill: {skill}")
+              for locale, alias in aliases.items():
+                  path = root / "commands" / f"{alias}.md"
+                  if not path.is_file():
+                      raise SystemExit(f"Missing command alias for {skill}/{locale}: {path}")
+          print("Language registry is valid.")
+          PY
 
           for file in plugins/product-engineering-toolkit/skills/*/SKILL.md; do
             awk 'NR==1{a=($0=="---")} NR==2{b=($0 ~ /^name:/)} NR==3{c=($0 ~ /^description:/)} NR==4{d=($0=="---")} END{if(!(a&&b&&c&&d)) exit 1}' "$file"

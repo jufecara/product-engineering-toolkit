@@ -1,0 +1,100 @@
+{
+  "defaultLocale": "en",
+  "supportedLocales": ["en", "es", "pt", "fr", "it"],
+  "detection": {
+    "explicitPreference": 1,
+    "currentRequest": 2,
+    "conversationLanguage": 3,
+    "fallback": "en"
+  },
+  "locales": {
+    "en": {
+      "name": "English",
+      "variant": "en",
+      "commandSuffix": "",
+      "responseLanguage": "English"
+    },
+    "es": {
+      "name": "Español",
+      "variant": "neutral / Latin American Spanish",
+      "commandSuffix": "-es",
+      "responseLanguage": "Spanish"
+    },
+    "pt": {
+      "name": "Português",
+      "variant": "Brazilian Portuguese",
+      "commandSuffix": "-pt",
+      "responseLanguage": "Portuguese"
+    },
+    "fr": {
+      "name": "Français",
+      "variant": "standard French",
+      "commandSuffix": "-fr",
+      "responseLanguage": "French"
+    },
+    "it": {
+      "name": "Italiano",
+      "variant": "standard Italian",
+      "commandSuffix": "-it",
+      "responseLanguage": "Italian"
+    }
+  },
+  "commands": {
+    "project-recovery": {
+      "en": "project-recovery",
+      "es": "recuperacion-proyecto-es",
+      "pt": "recuperacao-projeto-pt",
+      "fr": "recuperation-projet-fr",
+      "it": "recupero-progetto-it"
+    },
+    "product-discovery": {
+      "en": "product-discovery",
+      "es": "descubrimiento-producto-es",
+      "pt": "descoberta-produto-pt",
+      "fr": "decouverte-produit-fr",
+      "it": "scoperta-prodotto-it"
+    },
+    "codebase-archaeology": {
+      "en": "codebase-archaeology",
+      "es": "arqueologia-codigo-es",
+      "pt": "arqueologia-codigo-pt",
+      "fr": "archeologie-code-fr",
+      "it": "archeologia-codice-it"
+    },
+    "software-architecture-review": {
+      "en": "architecture-review",
+      "es": "revision-arquitectura-es",
+      "pt": "revisao-arquitetura-pt",
+      "fr": "revue-architecture-fr",
+      "it": "revisione-architettura-it"
+    },
+    "security-privacy-reliability": {
+      "en": "security-review",
+      "es": "revision-seguridad-es",
+      "pt": "revisao-seguranca-pt",
+      "fr": "revue-securite-fr",
+      "it": "revisione-sicurezza-it"
+    },
+    "quality-and-test-review": {
+      "en": "quality-review",
+      "es": "revision-calidad-es",
+      "pt": "revisao-qualidade-pt",
+      "fr": "revue-qualite-fr",
+      "it": "revisione-qualita-it"
+    },
+    "ui-ux-review": {
+      "en": "ui-ux-review",
+      "es": "revision-ui-ux-es",
+      "pt": "revisao-ui-ux-pt",
+      "fr": "revue-ui-ux-fr",
+      "it": "revisione-ui-ux-it"
+    },
+    "documentation-audit": {
+      "en": "documentation-audit",
+      "es": "auditoria-documentacion-es",
+      "pt": "auditoria-documentacao-pt",
+      "fr": "audit-documentation-fr",
+      "it": "audit-documentazione-it"
+    }
+  }
+}

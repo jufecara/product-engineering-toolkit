@@ -39,7 +39,7 @@ Users who prefer explicit commands can use:
 
 These are convenience shortcuts. They do not force the sequence, disable implicit skill selection, or prevent an isolated review. `/project-recovery` is the recommended starting command when taking over an undocumented or drifting project.
 
-Localized aliases are also available in `commands/` for Spanish (`-es`), Portuguese (`-pt`), French (`-fr`), and Italian (`-it`). For example, `/recuperacion-proyecto-es` and `/recuperacao-projeto-pt` both route to the canonical `project-recovery` skill. The language suffix keeps filenames unique where translations share the same words. Users may also write a natural-language request in any supported language; responses should follow the language of the request unless another language is specified.
+Localized aliases are also available in `commands/` for Spanish (`-es`), Portuguese (`-pt`), French (`-fr`), and Italian (`-it`). For example, `/recuperacion-proyecto-es` and `/recuperacao-projeto-pt` both route to the canonical `project-recovery` skill. The language suffix keeps filenames unique where translations share the same words. For natural-language requests, use `locales/registry.json` and `references/language-routing.md` to detect the language, select the appropriate localized resources, and respond in that language.
 
 ### Order warnings
 
