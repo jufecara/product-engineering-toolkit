@@ -12,6 +12,7 @@ Use this project as a reusable product-engineering workflow when taking ownershi
 - Never expose secret values; report only configuration names and their purpose.
 - Do not modify code or create documentation files unless the user asks for that action.
 - When evidence conflicts, show the conflict and identify the smallest validation step.
+- Respond in the user’s language while keeping skill names, command identifiers, file paths, code symbols, and artifact field names stable.
 
 ## Choose the workflow
 

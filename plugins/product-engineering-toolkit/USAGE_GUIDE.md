@@ -39,6 +39,8 @@ Users who prefer explicit commands can use:
 
 These are convenience shortcuts. They do not force the sequence, disable implicit skill selection, or prevent an isolated review. `/project-recovery` is the recommended starting command when taking over an undocumented or drifting project.
 
+Localized aliases are also available in `commands/` for Spanish (`-es`), Portuguese (`-pt`), French (`-fr`), and Italian (`-it`). For example, `/recuperacion-proyecto-es` and `/recuperacao-projeto-pt` both route to the canonical `project-recovery` skill. The language suffix keeps filenames unique where translations share the same words. Users may also write a natural-language request in any supported language; responses should follow the language of the request unless another language is specified.
+
 ### Order warnings
 
 The toolkit uses soft sequencing. A skill checks whether its recommended prerequisite artifacts are present and warns when they are missing, but it continues if the user requested an isolated or urgent review. It should explain what conclusions are limited by the missing context. The toolkit checks project artifacts, not conversation history.

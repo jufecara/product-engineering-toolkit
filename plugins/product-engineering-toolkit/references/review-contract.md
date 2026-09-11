@@ -13,6 +13,14 @@ Use one of these labels for consequential claims:
 
 For important claims, include the source, confidence (`high`, `medium`, or `low`), and next action when applicable.
 
+## Language and identifiers
+
+- Respond in the user’s language unless they request another language.
+- Keep skill names, command identifiers, file paths, code symbols, and artifact field names stable.
+- Translate explanations, findings, recommendations, and surrounding documentation naturally; do not translate identifiers in a way that breaks handoffs or traceability.
+- When a localized command invokes a canonical skill, preserve the canonical skill name in the handoff or artifact metadata.
+- Use the project’s canonical English evidence values (`confirmed`, `inferred`, `unknown`, and `needs validation`) when machine-readable consistency matters; a translated display label may be added alongside it.
+
 ## Finding quality
 
 Every negative finding must explain:
