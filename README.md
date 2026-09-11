@@ -4,6 +4,8 @@ An open-source, skills-first toolkit for recovering lost product context and hel
 
 It is designed for project takeovers, long-running products with missing documentation, and systems that have gradually drifted away from a shared understanding of their purpose, rules, architecture, quality, or user experience.
 
+![Product Engineering Toolkit](assets/product-engineering-toolkit-hero.png)
+
 ## What it does
 
 The toolkit coordinates focused reviews that produce evidence-backed artifacts for both humans and coding agents:
