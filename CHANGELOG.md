@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0 - 2026-09-11
+
+- Added automatic language detection and locale routing guidance.
+- Added Spanish, Portuguese, French, and Italian command aliases.
+- Added a locale registry and CI validation for localized command mappings.
+
 ## 0.1.0 - 2026-09-11
 
 - Initial skills-only toolkit release.
