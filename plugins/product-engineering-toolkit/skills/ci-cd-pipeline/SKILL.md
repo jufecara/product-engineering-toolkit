@@ -1,9 +1,6 @@
 ---
 name: ci-cd-pipeline
 description: "CI/CD pipeline structure for any project: layered PR-check gates, a stricter deploy workflow, static analysis (SAST) scanning, and minimal token permissions. Use when setting up CI from scratch, or reviewing/hardening an existing pipeline that's missing gates or over-scoped permissions."
-risk: safe
-source: personal
-date_added: "2026-09-13"
 ---
 
 # CI/CD Pipeline

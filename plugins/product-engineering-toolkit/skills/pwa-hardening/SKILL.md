@@ -1,9 +1,6 @@
 ---
 name: pwa-hardening
 description: "PWA-specific hygiene: service worker cache scope, manifest/icon requirements, and update-prompt UX. Only applicable when the project is a Progressive Web App with a service worker — not a general web-project skill. Use when adding or reviewing PWA support in a web app."
-risk: safe
-source: personal
-date_added: "2026-09-13"
 ---
 
 # PWA Hardening

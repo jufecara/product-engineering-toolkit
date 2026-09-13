@@ -1,9 +1,6 @@
 ---
 name: testing-practices
 description: "Testing conventions for any codebase: test co-location, deterministic time handling, shared test setup/helpers, and coverage reporting. Use when setting up a test suite from scratch, or reviewing an existing suite for flakiness, duplication, or missing coverage tooling."
-risk: safe
-source: personal
-date_added: "2026-09-13"
 ---
 
 # Testing Practices

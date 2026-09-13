@@ -1,9 +1,6 @@
 ---
 name: code-quality-gates
 description: "Enforced (not optional) code quality practices for any language: formatter + linter with zero-warning tolerance, pre-commit hooks scoped to staged files, and layered lint config. Use when setting up a new project's quality tooling, or hardening an existing project where lint/format issues accumulate unchecked."
-risk: safe
-source: personal
-date_added: "2026-09-13"
 ---
 
 # Code Quality Gates

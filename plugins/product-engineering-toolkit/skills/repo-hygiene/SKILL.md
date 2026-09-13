@@ -1,9 +1,6 @@
 ---
 name: repo-hygiene
 description: "Repository and contributor-experience hygiene for any project: standard root docs, issue/PR templates, branching policy, and agent-facing project documentation (CLAUDE.md/AGENTS.md). Use when bootstrapping a new repo's contributor experience, or reviewing an existing repo that's missing standard docs or has undocumented conventions."
-risk: safe
-source: personal
-date_added: "2026-09-13"
 ---
 
 # Repository Hygiene

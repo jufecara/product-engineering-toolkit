@@ -1,9 +1,6 @@
 ---
 name: security-hardening
 description: "Security and supply-chain hardening practices for any codebase: dependency auditing, secrets handling, CSP/web hardening when applicable, and a security-policy document aimed at both humans and AI agents. Use when setting up a new project's security baseline, or auditing/hardening an existing project's security posture."
-risk: safe
-source: personal
-date_added: "2026-09-13"
 ---
 
 # Security Hardening

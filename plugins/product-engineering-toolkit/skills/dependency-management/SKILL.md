@@ -1,9 +1,6 @@
 ---
 name: dependency-management
 description: "Dependency and environment management practices for any project: version pinning, lockfile discipline, and automated update workflows. Use when setting up a new project's dependency hygiene, or reviewing an existing project for version drift and unmanaged updates."
-risk: safe
-source: personal
-date_added: "2026-09-13"
 ---
 
 # Dependency Management
