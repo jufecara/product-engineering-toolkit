@@ -40,6 +40,19 @@ If more than one workflow applies, use them in this order:
 6. `ui-ux-review` when usability, accessibility, interface quality, or user friction is in scope
 7. `documentation-audit`
 
+## Hardening and hygiene checklists
+
+Each of these is a standalone, stack-agnostic checklist — use any one in isolation for setup or
+review work; they don't need to be chained together or read in sequence:
+
+- CI/CD pipeline structure and gating: `skills/ci-cd-pipeline/SKILL.md`
+- Formatter/linter/pre-commit enforcement: `skills/code-quality-gates/SKILL.md`
+- Dependency and lockfile hygiene: `skills/dependency-management/SKILL.md`
+- Service worker / installable-app hardening (PWAs only): `skills/pwa-hardening/SKILL.md`
+- Repository and contributor-experience hygiene: `skills/repo-hygiene/SKILL.md`
+- Security and supply-chain hardening: `skills/security-hardening/SKILL.md`
+- Test suite conventions and coverage: `skills/testing-practices/SKILL.md`
+
 ## Required output quality
 
 Every discovery or audit result must include:

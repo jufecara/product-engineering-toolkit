@@ -23,6 +23,18 @@ Localized command aliases are available for Spanish, Portuguese, French, and Ita
 - `documentation-audit`: Check documentation against evidence, identify contradictions, and prioritize gaps.
 - `security-privacy-reliability`: Review trust boundaries, sensitive data, access controls, failure modes, recovery, and operational readiness.
 
+## Hardening and hygiene checklists
+
+Standalone, stack-agnostic skills usable in isolation — no dependency on each other or on the review sequence above:
+
+- `ci-cd-pipeline`: Layered PR-check/deploy gating, ordered validation, SAST scanning, and minimal token permissions.
+- `code-quality-gates`: Formatter/linter enforcement, scoped pre-commit hooks, and type checking.
+- `dependency-management`: Runtime pinning, lockfile discipline, version-pinning philosophy, and automated updates.
+- `pwa-hardening`: Service worker cache scope, manifest/icon requirements, and update-prompt UX (PWAs only).
+- `repo-hygiene`: Standard root docs, issue/PR templates, branching policy, and agent-facing documentation.
+- `security-hardening`: Supply-chain auditing, secrets handling, web hardening, and a security-policy document.
+- `testing-practices`: Test co-location, deterministic time handling, shared setup, and coverage reporting.
+
 ## Evidence standard
 
 Every important claim should be labeled `confirmed`, `inferred`, `unknown`, or `needs validation`, with a source and a next action where applicable. Generated documentation is a working model until reviewed by the appropriate product or technical owner.

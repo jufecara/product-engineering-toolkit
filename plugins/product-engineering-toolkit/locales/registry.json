@@ -95,6 +95,55 @@
       "pt": "auditoria-documentacao-pt",
       "fr": "audit-documentation-fr",
       "it": "audit-documentazione-it"
+    },
+    "ci-cd-pipeline": {
+      "en": "ci-cd-pipeline",
+      "es": "pipeline-ci-cd-es",
+      "pt": "pipeline-ci-cd-pt",
+      "fr": "pipeline-ci-cd-fr",
+      "it": "pipeline-ci-cd-it"
+    },
+    "code-quality-gates": {
+      "en": "code-quality-gates",
+      "es": "puertas-calidad-codigo-es",
+      "pt": "portas-qualidade-codigo-pt",
+      "fr": "portes-qualite-code-fr",
+      "it": "soglie-qualita-codice-it"
+    },
+    "dependency-management": {
+      "en": "dependency-management",
+      "es": "gestion-dependencias-es",
+      "pt": "gestao-dependencias-pt",
+      "fr": "gestion-dependances-fr",
+      "it": "gestione-dipendenze-it"
+    },
+    "pwa-hardening": {
+      "en": "pwa-hardening",
+      "es": "refuerzo-pwa-es",
+      "pt": "fortalecimento-pwa-pt",
+      "fr": "renforcement-pwa-fr",
+      "it": "rafforzamento-pwa-it"
+    },
+    "repo-hygiene": {
+      "en": "repo-hygiene",
+      "es": "higiene-repositorio-es",
+      "pt": "higiene-repositorio-pt",
+      "fr": "hygiene-depot-fr",
+      "it": "igiene-repository-it"
+    },
+    "security-hardening": {
+      "en": "security-hardening",
+      "es": "refuerzo-seguridad-es",
+      "pt": "fortalecimento-seguranca-pt",
+      "fr": "renforcement-securite-fr",
+      "it": "rafforzamento-sicurezza-it"
+    },
+    "testing-practices": {
+      "en": "testing-practices",
+      "es": "practicas-pruebas-es",
+      "pt": "praticas-teste-pt",
+      "fr": "pratiques-tests-fr",
+      "it": "pratiche-test-it"
     }
   }
 }

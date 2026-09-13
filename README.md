@@ -18,6 +18,11 @@ The toolkit coordinates focused reviews that produce evidence-backed artifacts f
 - UI/UX heuristics, accessibility, and user friction
 - Documentation completeness, freshness, and traceability
 
+It also includes a separate set of standalone, stack-agnostic hardening and hygiene checklists that
+work independently of the review sequence above — CI/CD pipeline gating, code quality gates,
+dependency management, PWA hardening, repository hygiene, security hardening, and testing
+practices. Use any one of them in isolation for setup or review work.
+
 The toolkit should be used selectively. Start with recovery when a project has lost important context. If the project is already well documented, use only the targeted review that the current change requires.
 
 ## Repository structure

@@ -37,6 +37,18 @@ Users who prefer explicit commands can use:
 /documentation-audit
 ```
 
+The standalone hardening/hygiene checklists also have their own command entrypoints, usable independently of the sequence above:
+
+```text
+/ci-cd-pipeline
+/code-quality-gates
+/dependency-management
+/pwa-hardening
+/repo-hygiene
+/security-hardening
+/testing-practices
+```
+
 These are convenience shortcuts. They do not force the sequence, disable implicit skill selection, or prevent an isolated review. `/project-recovery` is the recommended starting command when taking over an undocumented or drifting project.
 
 Localized aliases are also available in `commands/` for Spanish (`-es`), Portuguese (`-pt`), French (`-fr`), and Italian (`-it`). For example, `/recuperacion-proyecto-es` and `/recuperacao-projeto-pt` both route to the canonical `project-recovery` skill. The language suffix keeps filenames unique where translations share the same words. For natural-language requests, use `locales/registry.json` and `references/language-routing.md` to detect the language, select the appropriate localized resources, and respond in that language.

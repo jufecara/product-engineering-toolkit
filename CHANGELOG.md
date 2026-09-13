@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 - 2026-09-13
+
+- Added seven standalone hardening/hygiene skills, independent of the review-sequence skills and of each other: `ci-cd-pipeline`, `code-quality-gates`, `dependency-management`, `pwa-hardening`, `repo-hygiene`, `security-hardening`, `testing-practices`.
+- Added English command entrypoints and Spanish, Portuguese, French, and Italian aliases for the new skills, with locale registry entries.
+- Documented the new skills in `CLAUDE.md`, `USAGE_GUIDE.md`, and both README files.
+
 ## 0.2.0 - 2026-09-11
 
 - Added automatic language detection and locale routing guidance.
