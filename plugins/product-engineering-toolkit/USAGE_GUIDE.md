@@ -2,7 +2,29 @@
 
 Use the toolkit as a staged review team. Start broad, collect evidence, then ask specialist skills to evaluate specific dimensions.
 
-## The standard sequence
+For day-to-day product work, use the practice loop first. The staged review team is the assurance path for takeovers, risky changes, and deeper reviews.
+
+## The beginner path
+
+If you are starting as a product engineer, use this progression:
+
+1. **Understand one journey.** Use `product-discovery` and `codebase-archaeology` to map one user goal, one code path, and the current unknowns.
+2. **Frame one outcome.** Use `product-engineering-practice` and `templates/outcome-brief.md` before proposing a solution.
+3. **Shape a thin slice.** Separate the smallest real user outcome from prototypes, spikes, and deferred scope.
+4. **Ship safely.** Use `templates/feature-release-readiness.md` to cover behavior, UX, tests, data, observability, rollout, and rollback.
+5. **Learn.** Use `templates/experiment-and-learning-record.md` to record what changed, what the evidence says, and whether to continue, iterate, expand, roll back, or stop.
+
+The goal is not to make every engineer perform every specialist review. The goal is to know enough to make a good first decision and enough to recognize when deeper expertise is needed.
+
+## Day-to-day practice loop
+
+```text
+Understand → Frame → Shape → Build → Validate → Release → Learn
+```
+
+The loop should produce an outcome brief and a learning record for meaningful changes. Link specialist artifacts to the brief instead of copying their full analysis into every feature document.
+
+## The assurance sequence
 
 ```text
 Project recovery

@@ -1,15 +1,15 @@
 {
   "name": "product-engineering-toolkit",
-  "version": "0.2.0",
-  "description": "Product Engineering Toolkit plugin",
+  "version": "0.3.0",
+  "description": "Product Engineering Toolkit for outcome-oriented discovery, delivery, assurance, and learning",
   "author": {
     "name": "Product Engineering Toolkit contributors"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Product Engineering Toolkit",
-    "shortDescription": "Recover product context and review software systems.",
-    "longDescription": "A skills-first toolkit for product discovery, architecture, security, quality, UX, and documentation reviews.",
+    "shortDescription": "Practice product engineering and review software systems.",
+    "longDescription": "A skills-first toolkit for outcome framing, thin-slice delivery, product context recovery, architecture, security, quality, UX, and documentation reviews.",
     "developerName": "Product Engineering Toolkit contributors",
     "category": "Productivity",
     "capabilities": [],

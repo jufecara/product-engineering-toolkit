@@ -1,6 +1,6 @@
 # Product Engineering Toolkit for Claude Code
 
-Use this project as a reusable product-engineering workflow when taking ownership of an undocumented software product.
+Use this project as a reusable product-engineering workflow for understanding, shaping, shipping, and learning from software products, including when taking ownership of an undocumented product.
 
 ## Operating principles
 
@@ -21,7 +21,10 @@ Use the relevant instruction file below as the detailed workflow. Read it before
 First read `references/review-contract.md` when coordinating two or more toolkit workflows.
 Use `USAGE_GUIDE.md` for the overall sequence and handoff format.
 
+For a feature or ambiguous product problem, first read `skills/product-engineering-practice/SKILL.md` and use the outcome, learning, and release-readiness templates. For a takeover or context-recovery task, use `project-recovery` first.
+
 - Product understanding and onboarding: `skills/product-discovery/SKILL.md`
+- End-to-end product-engineering work: `skills/product-engineering-practice/SKILL.md`
 - Project recovery and workflow coordination: `skills/project-recovery/SKILL.md`
 - Repository and architecture investigation: `skills/codebase-archaeology/SKILL.md`
 - Architecture quality and design review: `skills/software-architecture-review/SKILL.md`

@@ -1,6 +1,6 @@
 # Product Engineering Toolkit
 
-A skills-first toolkit for understanding undocumented software products, producing trustworthy documentation, and maintaining project context over time.
+A skills-first toolkit for practicing product engineering, understanding undocumented software products, producing trustworthy documentation, and maintaining project context over time.
 
 The toolkit includes a `CLAUDE.md` adapter for Claude Code. The Codex plugin manifest remains in `.codex-plugin/plugin.json`; Claude Code uses the adapter and the plain Markdown workflow files instead of that manifest.
 
@@ -14,6 +14,8 @@ Localized command aliases are available for Spanish, Portuguese, French, and Ita
 
 ## Included skills
 
+- `product-engineering-practice`: Move from an ambiguous problem to an outcome brief, thin slice, safe release, measurement, and learning.
+
 - `project-recovery`: Decide whether a project needs context recovery and coordinate the specialist workflow.
 - `product-discovery`: Establish product purpose, users, workflows, rules, constraints, risks, and unknowns.
 - `codebase-archaeology`: Inspect an unfamiliar repository and produce an evidence-backed technical map.
@@ -21,6 +23,8 @@ Localized command aliases are available for Spanish, Portuguese, French, and Ita
 - `quality-and-test-review`: Inventory tests, coverage, mutation, performance, CI quality gates, flakiness, and confidence gaps.
 - `ui-ux-review`: Evaluate usability, accessibility, interaction quality, responsive behavior, and user friction with a transparent heuristic score.
 - `documentation-audit`: Check documentation against evidence, identify contradictions, and prioritize gaps.
+
+The practice workflow is the center of the toolkit. The other skills provide deeper context and assurance when a feature or project needs them.
 - `security-privacy-reliability`: Review trust boundaries, sensitive data, access controls, failure modes, recovery, and operational readiness.
 
 ## Hardening and hygiene checklists
@@ -41,7 +45,7 @@ Every important claim should be labeled `confirmed`, `inferred`, `unknown`, or `
 
 ## Planned extensions
 
-Potential future skills include workflow modeling, domain rules, API documentation, decision records, risk review, release readiness, and portfolio status.
+Potential future skills include workflow modeling, domain rules, API documentation, decision records, customer-interview planning, experiment design, feature slicing, and portfolio status.
 
 ## Claude Code usage
 

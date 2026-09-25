@@ -40,6 +40,13 @@
     }
   },
   "commands": {
+    "product-engineering-practice": {
+      "en": "product-engineering-practice",
+      "es": "practica-ingenieria-producto-es",
+      "pt": "pratica-engenharia-produto-pt",
+      "fr": "pratique-ingenierie-produit-fr",
+      "it": "pratica-ingegneria-prodotto-it"
+    },
     "project-recovery": {
       "en": "project-recovery",
       "es": "recuperacion-proyecto-es",

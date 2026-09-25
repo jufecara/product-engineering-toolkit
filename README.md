@@ -1,8 +1,19 @@
 # Product Engineering Toolkit
 
-An open-source, skills-first toolkit for recovering lost product context and helping product engineers understand undocumented software systems.
+An open-source, skills-first toolkit for helping product engineers understand, improve, ship, and learn from software products.
 
-It is designed for project takeovers, long-running products with missing documentation, and systems that have gradually drifted away from a shared understanding of their purpose, rules, architecture, quality, or user experience.
+It is designed for new product engineers, project takeovers, long-running products with missing documentation, and systems that have gradually drifted away from a shared understanding of their purpose, rules, architecture, quality, or user experience.
+
+## What product engineering means here
+
+Product engineering is the practice of combining product context, customer understanding, design collaboration, software engineering, safe delivery, and measurement in one continuous loop. The goal is a useful product outcome—not merely completed tickets or deployed code.
+
+The toolkit supports two complementary modes:
+
+- **Practice:** frame a problem, shape a small slice, build safely, release, measure, and learn.
+- **Assurance:** recover context and review architecture, security/privacy/reliability, quality, UX, and documentation.
+
+Start with `product-engineering-practice` for a feature or ambiguous problem. Use `project-recovery` when the product context itself is missing, then route to the specialist reviews that match the risk.
 
 ![Product Engineering Toolkit](assets/product-engineering-toolkit-hero.png)
 
@@ -17,6 +28,7 @@ The toolkit coordinates focused reviews that produce evidence-backed artifacts f
 - Test strategy, coverage, mutation, performance, and release confidence
 - UI/UX heuristics, accessibility, and user friction
 - Documentation completeness, freshness, and traceability
+- Outcome framing, thin-slice shaping, release readiness, and post-release learning
 
 It also includes a separate set of standalone, stack-agnostic hardening and hygiene checklists that
 work independently of the review sequence above — CI/CD pipeline gating, code quality gates,
@@ -43,7 +55,13 @@ plugins/product-engineering-toolkit/
 
 Install or import the plugin according to your Codex environment, then use natural language or explicitly invoke a skill. The optional commands are convenience entrypoints, not a required process.
 
-Recommended starting point:
+Recommended starting point for a feature or product problem:
+
+```text
+$product-engineering-practice
+```
+
+Recommended starting point for an unfamiliar or drifting project:
 
 ```text
 $project-recovery

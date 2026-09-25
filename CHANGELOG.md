@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0 - 2026-09-25
+
+- Added the `product-engineering-practice` workflow for outcome framing, thin-slice shaping, safe release, measurement, and learning.
+- Added outcome, experiment/learning, and feature release-readiness templates.
+- Added a beginner path and clarified the relationship between practice workflows and specialist assurance reviews.
+- Added a full toolkit assessment in `docs/product-engineering-toolkit-review.md`.
+
 ## 0.3.0 - 2026-09-13
 
 - Added seven standalone hardening/hygiene skills, independent of the review-sequence skills and of each other: `ci-cd-pipeline`, `code-quality-gates`, `dependency-management`, `pwa-hardening`, `repo-hygiene`, `security-hardening`, `testing-practices`.
